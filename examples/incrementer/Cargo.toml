@@ -3,7 +3,12 @@ name = "incrementer"
 version = "4.0.0-alpha.3"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
+<<<<<<< Updated upstream
 publish = false
+=======
+description = "ink! incrementer contract"
+license = "MIT"
+>>>>>>> Stashed changes
 
 [dependencies]
 ink = { path = "../../crates/ink", default-features = false }

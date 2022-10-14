@@ -1,13 +1,24 @@
 [package]
+<<<<<<< Updated upstream
 name = "adder"
 version = "4.0.0-alpha.3"
+=======
+name = "pluser"
+version = "3.0.0"
+>>>>>>> Stashed changes
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
+description = "ink! adder"
+license = "MIT"
 
 [dependencies]
 ink = { path = "../../../crates/ink", default-features = false }
 
+<<<<<<< Updated upstream
 accumulator = { path = "../accumulator", default-features = false, features = ["ink-as-dependency"] }
+=======
+accumulate = { version = "3.0.0", path = "../accumulator", default-features = false, features = ["ink-as-dependency"] }
+>>>>>>> Stashed changes
 
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
 scale-info = { version = "2", default-features = false, features = ["derive"], optional = true }
@@ -29,6 +40,6 @@ std = [
     "scale/std",
     "scale-info/std",
 
-    "accumulator/std",
+    "accumulate/std",
 ]
 ink-as-dependency = []

@@ -3,7 +3,12 @@ name = "trait_erc20"
 version = "4.0.0-alpha.3"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
+<<<<<<< Updated upstream
 publish = false
+=======
+description = "ink erc20 trait"
+license = "MIT"
+>>>>>>> Stashed changes
 
 [dependencies]
 ink = { path = "../../crates/ink", default-features = false }

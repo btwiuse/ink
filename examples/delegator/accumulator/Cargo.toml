@@ -1,8 +1,15 @@
 [package]
+<<<<<<< Updated upstream
 name = "accumulator"
 version = "4.0.0-alpha.3"
+=======
+name = "accumulate"
+version = "3.0.0"
+>>>>>>> Stashed changes
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
+description = "ink! accumulator"
+license = "MIT"
 
 [dependencies]
 ink = { path = "../../../crates/ink", default-features = false }

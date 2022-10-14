@@ -3,12 +3,24 @@ name = "delegator"
 version = "4.0.0-alpha.3"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
+<<<<<<< Updated upstream
 publish = false
+=======
+description = "ink! delegator contract"
+license = "MIT"
+>>>>>>> Stashed changes
 
 [dependencies]
 ink = { path = "../../crates/ink", default-features = false }
 
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
+<<<<<<< Updated upstream
+=======
+
+pluser = { version = "3.0.0", path = "adder", default-features = false, features = ["ink-as-dependency"] }
+subber = { version = "3.0.0", path = "subber", default-features = false, features = ["ink-as-dependency"] }
+accumulate = { version = "3.0.0", path = "accumulator", default-features = false, features = ["ink-as-dependency"] }
+>>>>>>> Stashed changes
 scale-info = { version = "2", default-features = false, features = ["derive"], optional = true }
 
 adder = { path = "adder", default-features = false, features = ["ink-as-dependency"] }
@@ -27,9 +39,9 @@ std = [
     "scale/std",
     "scale-info/std",
 
-    "adder/std",
+    "pluser/std",
     "subber/std",
-    "accumulator/std",
+    "accumulate/std",
 ]
 ink-as-dependency = []
 
